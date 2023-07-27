@@ -28,7 +28,6 @@ class Rectangle:
         else:
             for _ in range(self.height):
                 output += "*" * self.width + "\n"
-
         return output
     
     def get_amount_inside(self, rec_or_sq):
